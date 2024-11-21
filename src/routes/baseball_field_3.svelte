@@ -1,5 +1,27 @@
-<script>
-  export let jsonData = {};
+<script lang="ts">
+  interface Player {
+    batting_order: number;
+    player_id: string;
+    rating: number;
+    player_name: string;
+    headshot: string;
+    ratings: number;
+  }
+
+  interface TeamLineup {
+    LF: Player;
+    "2B": Player;
+    RF: Player;
+    "1B": Player;
+    "3B": Player;
+    SS: Player;
+    DH: Player;
+    CF: Player;
+    C: Player;
+    SP: Player;
+  }
+
+  export let lineup: TeamLineup;
 </script>
 
 <svg
@@ -8,12 +30,7 @@
   width="600"
   height="533.33331"
   viewBox="0 0 600 533.33331"
-  sodipodi:docname="baseball_field_2.svg"
-  inkscape:version="1.2 (dc2aeda, 2022-05-15)"
-  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
   xmlns="http://www.w3.org/2000/svg"
-  xmlns:svg="http://www.w3.org/2000/svg"
 >
   <defs id="defs6">
     <clipPath clipPathUnits="userSpaceOnUse" id="clipPath28">
@@ -23,32 +40,7 @@
       />
     </clipPath>
   </defs>
-  <sodipodi:namedview
-    id="namedview4"
-    pagecolor="#ffffff"
-    bordercolor="#000000"
-    borderopacity="0.25"
-    inkscape:showpageshadow="2"
-    inkscape:pageopacity="0.0"
-    inkscape:pagecheckerboard="0"
-    inkscape:deskcolor="#d1d1d1"
-    showgrid="false"
-    inkscape:zoom="1.5283627"
-    inkscape:cx="289.19836"
-    inkscape:cy="318.31449"
-    inkscape:window-width="1728"
-    inkscape:window-height="965"
-    inkscape:window-x="0"
-    inkscape:window-y="38"
-    inkscape:window-maximized="0"
-    inkscape:current-layer="g10"
-  />
-  <g
-    id="g8"
-    inkscape:groupmode="layer"
-    inkscape:label="ink_ext_XXXXXX"
-    transform="matrix(1.3333333,0,0,-1.3333333,0,533.33333)"
-  >
+  <g id="g8" transform="matrix(1.3333333,0,0,-1.3333333,0,533.33333)">
     <g id="g10" transform="scale(0.1)">
       <path
         d="M 2250,166.719 80.8203,1419.1 311.813,1552.46 2250,433.449 v 65.473 -65.473 L 4188.19,1552.46 4419.18,1419.1 2250,166.719"
@@ -3144,100 +3136,238 @@
         style="fill:#495821;fill-opacity:1;fill-rule:nonzero;stroke:none"
         id="path1288"
       />
-      <circle
-        style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-        id="1B"
-        cx="705.42474"
-        cy="-2164.7356"
-        r="269.74802"
-        transform="scale(1,-1)"
-      />
-      <circle
-        style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-        id="2B"
-        cx="1350.1749"
-        cy="-1491.3363"
-        r="269.74802"
-        transform="scale(1,-1)"
-      />
-      <circle
-        style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-        id="3B"
-        cx="2551.7366"
-        cy="-1730.0504"
-        r="269.74802"
-        transform="scale(1,-1)"
-      />
-      <circle
-        style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-        id="SS"
-        cx="1894.234"
-        cy="-1742.5742"
-        r="269.74802"
-        transform="scale(1,-1)"
-      />
-      <circle
-        style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-        id="C"
-        cx="3074.6074"
-        cy="-1438.8706"
-        r="269.74802"
-        transform="scale(1,-1)"
-      />
-      <circle
-        style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-        id="SP"
-        cx="2226.1162"
-        cy="-1238.4889"
-        r="269.74802"
-        transform="scale(1,-1)"
-      />
-      <circle
-        style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-        id="DH"
-        cx="2238.6399"
-        cy="-668.6532"
-        r="269.74802"
-        transform="scale(1,-1)"
-      />
-      <circle
-        style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-        id="LF"
-        cx="2235.509"
-        cy="-2434.5176"
-        r="269.74802"
-        transform="scale(1,-1)"
-      />
-      <circle
-        style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-        id="CF"
-        cx="3566.1694"
-        cy="-2030.623"
-        r="269.74802"
-        transform="scale(1,-1)"
-      />
-      <circle
-        style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-        id="RF"
-        cx="4148.5288"
-        cy="-1482.7042"
-        r="269.74802"
-        transform="scale(1,-1)"
-      />
-      {#if jsonData != {}}
+      {#if !(Object.keys(lineup).length == 0)}
         <circle
           style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
-          id={jsonData.LF.player_name}
+          id="RF"
+          cx="705.42474"
+          cy="-2164.7356"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <image
+          href={lineup["RF"].headshot}
+          id="RF_img"
+          x="705.42474"
+          y="-2164.7356"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="3B"
+          cx="1350.1749"
+          cy="-1491.3363"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <image
+          href={lineup["3B"].headshot}
+          id="3B_img"
+          x="1350.1749"
+          y="-1491.3363"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="2B"
+          cx="2551.7366"
+          cy="-1730.0504"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <image
+          href={lineup["2B"].headshot}
+          id="2B_img"
+          x="2551.7366"
+          y="-1730.0504"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="SS"
+          cx="1894.234"
+          cy="-1742.5742"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <image
+          href={lineup["SS"].headshot}
+          id="SS_img"
+          x="1894.234"
+          y="-1742.5742"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="1B"
+          cx="3074.6074"
+          cy="-1438.8706"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <image
+          href={lineup["1B"].headshot}
+          id="1B_img"
+          x="3074.6074"
+          y="-1438.8706"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="SP"
+          cx="2226.1162"
+          cy="-1238.4889"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <image
+          href={lineup["SP"].headshot}
+          id="SP_img"
+          x="2226.1162"
+          y="-1238.4889"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="C"
+          cx="2238.6399"
+          cy="-668.6532"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <image
+          href={lineup.C.headshot}
+          id="C_img"
+          x="2238.6399"
+          y="-668.6532"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="CF"
+          cx="2235.509"
+          cy="-2434.5176"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <image
+          href={lineup.CF.headshot}
+          id="CF_img"
+          x="2235.509"
+          y="-2434.5176"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="RF"
+          cx="3566.1694"
+          cy="-2030.623"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <image
+          href={lineup.RF.headshot}
+          id="RF_img"
+          x="3566.1694"
+          y="-2030.623"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="DH"
           cx="4148.5288"
           cy="-1482.7042"
           r="269.74802"
           transform="scale(1,-1)"
-        >
-          <image href={jsonData.LF.headshot} />
-        </circle>
-        <image href={jsonData.LF.headshot} />
+        />
+        <image
+          href={lineup.DH.headshot}
+          id="DH_img"
+          x="4148.5288"
+          y="-1482.7042"
+          transform="scale(1,-1)"
+        />
       {:else}
-        {console.log("here")}
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="1B"
+          cx="705.42474"
+          cy="-2164.7356"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="2B"
+          cx="1350.1749"
+          cy="-1491.3363"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="3B"
+          cx="2551.7366"
+          cy="-1730.0504"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="SS"
+          cx="1894.234"
+          cy="-1742.5742"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="C"
+          cx="3074.6074"
+          cy="-1438.8706"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="SP"
+          cx="2226.1162"
+          cy="-1238.4889"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="DH"
+          cx="2238.6399"
+          cy="-668.6532"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="LF"
+          cx="2235.509"
+          cy="-2434.5176"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="CF"
+          cx="3566.1694"
+          cy="-2030.623"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="RF"
+          cx="4148.5288"
+          cy="-1482.7042"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
       {/if}
     </g>
   </g>

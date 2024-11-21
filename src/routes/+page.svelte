@@ -2,20 +2,20 @@
   // info for images
   let svgPath: string = "/baseball_field_2.svg"; // Path to the SVG file in the static folder
   import MyIcon from "./baseball_field_3.svelte";
-  import jsonData from "./toros.json";
+  import toros from "./toros.json";
 </script>
 
 <div class="svg-container">
   <h1>Baseball Field SVG</h1>
   <!-- <img src={svgPath} alt="Baseball Field" /> -->
 
-  {#if !jsonData}
+  {#if !toros}
     <p>Loading...</p>
   {:else}
   
-  <MyIcon jsonData={jsonData}/>
+  <MyIcon lineup={toros}/>
     <ul>
-      {#each Object.entries(jsonData) as [key, value]}
+      {#each Object.entries(toros) as [key, value]}
         <li>
           <strong>{key}:</strong>
           {value.player_name}
