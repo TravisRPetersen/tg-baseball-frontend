@@ -60,7 +60,7 @@
     "player_id": "https://research.mlb.com/players/520976",
     "rating": 64,
     "player_name": "Engel Beltre",
-    "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/520976/headshot/67/current",
+    "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/520976/headshot/milb/current",
     "ratings": 520976
   },
   "C": {
@@ -76,7 +76,7 @@
     "player_id": "https://research.mlb.com/players/641754",
     "rating": 70,
     "player_name": "Jeff Kinley",
-    "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/641754/headshot/67/current",
+    "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/641754/headshot/milb/current",
     "ratings": 641754
   }
 }

@@ -3154,6 +3154,21 @@
         />
         <circle
           style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
+          id="LF"
+          cx="2235.509"
+          cy="-2434.5176"
+          r="269.74802"
+          transform="scale(1,-1)"
+        />
+        <image
+          href={lineup["LF"].headshot}
+          id="LF_img"
+          x="705.42474"
+          y="-2164.7356"
+          transform="scale(1,-1)"
+        />
+        <circle
+          style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"
           id="3B"
           cx="1350.1749"
           cy="-1491.3363"
