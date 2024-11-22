@@ -30,6 +30,11 @@
 </script>
 
 <g>
+    <defs>
+        <clipPath id= "circleClip{position}">
+          <circle cx={getCoordinate(position).x} cy={getCoordinate(position).y - 80} r="150"/>
+        </clipPath>
+      </defs>
     <circle
         style="fill:{color};fill-opacity:1;stroke-width:7.5"
         id={position}
@@ -43,6 +48,7 @@
         id="DH_img"
         x={getCoordinate(position).x - radius * 0.4}
         y={getCoordinate(position).y - radius * 0.8}
+        clip-path="url(#circleClip{position})" 
         transform="scale(1,-1)"
     />
     <text
