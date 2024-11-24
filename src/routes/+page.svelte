@@ -1,27 +1,20 @@
 <script lang="ts">
   // info for images
-  let svgPath: string = "/baseball_field_2.svg"; // Path to the SVG file in the static folder
-  import MyIcon from "./baseball_field_3.svelte";
-  import toros from "./toros.json";
+  import type { Game } from "../app";
+  import TeamChart from "./teamChart.svelte";
+  import data from "./matchup.json";
+  const game: Game = data;
+  
 </script>
 
 <div class="svg-container">
-  <h1>Baseball Field SVG</h1>
-  <!-- <img src={svgPath} alt="Baseball Field" /> -->
-
-  {#if !toros}
+  {#if !game}
     <p>Loading...</p>
   {:else}
-  
-  <MyIcon lineup={toros}/>
-    <ul>
-      {#each Object.entries(toros) as [key, value]}
-        <li>
-          <strong>{key}:</strong>
-          {value.player_name}
-        </li>
-      {/each}
-    </ul>
+    <div class="baseball-diamonds">
+      <TeamChart team={data.away} type="away" />
+      <TeamChart team={data.home} type="home" />
+    </div>
   {/if}
 </div>
 
@@ -33,8 +26,10 @@
     text-align: center;
     padding: 1rem;
   }
-  /* img {
-    max-width: 100%;
-    height: auto;
-  } */
+  .baseball-diamonds {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Centers the diamonds horizontally */
+    align-items: center; /* Centers the diamonds vertically */
+  }
 </style>

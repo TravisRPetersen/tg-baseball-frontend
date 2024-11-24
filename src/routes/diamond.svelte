@@ -1,7 +1,10 @@
 <script lang="ts">
-  import type { TeamLineup, Player } from "../app";
-  import CircleAttr from "./circle.svelte";
-  export let lineup: TeamLineup;
+  import type { Roster } from "../app";
+
+  import PlayerDetail from "./playerDetail.svelte";
+
+  export let roster: Roster;
+  export let type: string;
 </script>
 
 <svg
@@ -3116,10 +3119,10 @@
         style="fill:#495821;fill-opacity:1;fill-rule:nonzero;stroke:none"
         id="path1288"
       />
-      {#if !(Object.keys(lineup).length == 0)}
-      {#each Object.entries(lineup) as [key, val]}
-        <CircleAttr link={val.headshot} position={key as keyof TeamLineup} name={val.player_name} /> 
-      {/each}
+      {#if !(Object.keys(roster).length == 0)}
+        {#each Object.entries(roster) as [key, val]}
+          <PlayerDetail position={key as keyof Roster} player={val} {type} />
+        {/each}
       {:else}
         <circle
           style="fill:#d1993b;fill-opacity:1;stroke-width:7.5"

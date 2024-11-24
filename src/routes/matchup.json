@@ -1,0 +1,176 @@
+{
+  "home": {
+    "team_name": "Tigres del Licey",
+    "image": "https://www.mlbstatic.com/team-logos/672.svg",
+    "rating": 72,
+    "roster": {
+      "LF": {
+        "batting_order": 1.0,
+        "player_id": "https://research.mlb.com/players/682927",
+        "rating": 68,
+        "player_name": "Ronny Simon",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/682927/headshot/67/current",
+        "ratings": 682927
+      },
+      "2B": {
+        "batting_order": 2.0,
+        "player_id": "https://research.mlb.com/players/660644",
+        "rating": 69,
+        "player_name": "Vidal Bruj\u00e1n",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/660644/headshot/67/current",
+        "ratings": 660644
+      },
+      "RF": {
+        "batting_order": 3.0,
+        "player_id": "https://research.mlb.com/players/622569",
+        "rating": 75,
+        "player_name": "Pablo Reyes",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622569/headshot/67/current",
+        "ratings": 622569
+      },
+      "1B": {
+        "batting_order": 4.0,
+        "player_id": "https://research.mlb.com/players/687859",
+        "rating": 70,
+        "player_name": "Troy Johnston",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/687859/headshot/67/current",
+        "ratings": 687859
+      },
+      "3B": {
+        "batting_order": 5.0,
+        "player_id": "https://research.mlb.com/players/622168",
+        "rating": 70,
+        "player_name": "Yairo Mu\u00f1oz",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622168/headshot/67/current",
+        "ratings": 622168
+      },
+      "SS": {
+        "batting_order": 6.0,
+        "player_id": "https://research.mlb.com/players/542436",
+        "rating": 60,
+        "player_name": "Cristhian Adames",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/542436/headshot/67/current",
+        "ratings": 542436
+      },
+      "DH": {
+        "batting_order": 7.0,
+        "player_id": "https://research.mlb.com/players/593772",
+        "rating": 65,
+        "player_name": "Yeison Ascensio",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/593772/headshot/67/current",
+        "ratings": 593772
+      },
+      "CF": {
+        "batting_order": 8.0,
+        "player_id": "https://research.mlb.com/players/520976",
+        "rating": 64,
+        "player_name": "Engel Beltre",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/520976/headshot/67/current",
+        "ratings": 520976
+      },
+      "C": {
+        "batting_order": 9.0,
+        "player_id": "https://research.mlb.com/players/663503",
+        "rating": 60,
+        "player_name": "Elih Marrero",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/663503/headshot/67/current",
+        "ratings": 663503
+      },
+      "SP": {
+        "batting_order": null,
+        "player_id": "https://research.mlb.com/players/641754",
+        "rating": 70,
+        "player_name": "Jeff Kinley",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/641754/headshot/67/current",
+        "ratings": 641754
+      }
+    }
+  },
+  "away": {
+    "team_name": "Aguilas Cibae\u00f1as",
+    "image": "https://www.mlbstatic.com/team-logos/667.svg",
+    "rating": 70,
+    "roster": {
+      "LF": {
+        "batting_order": 1.0,
+        "player_id": "https://research.mlb.com/players/682927",
+        "rating": 68,
+        "player_name": "Ronny Simon",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/682927/headshot/67/current",
+        "ratings": 682927
+      },
+      "2B": {
+        "batting_order": 2.0,
+        "player_id": "https://research.mlb.com/players/660644",
+        "rating": 69,
+        "player_name": "Vidal Bruj\u00e1n",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/660644/headshot/67/current",
+        "ratings": 660644
+      },
+      "RF": {
+        "batting_order": 3.0,
+        "player_id": "https://research.mlb.com/players/622569",
+        "rating": 75,
+        "player_name": "Pablo Reyes",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622569/headshot/67/current",
+        "ratings": 622569
+      },
+      "1B": {
+        "batting_order": 4.0,
+        "player_id": "https://research.mlb.com/players/687859",
+        "rating": 70,
+        "player_name": "Troy Johnston",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/687859/headshot/67/current",
+        "ratings": 687859
+      },
+      "3B": {
+        "batting_order": 5.0,
+        "player_id": "https://research.mlb.com/players/622168",
+        "rating": 70,
+        "player_name": "Yairo Mu\u00f1oz",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622168/headshot/67/current",
+        "ratings": 622168
+      },
+      "SS": {
+        "batting_order": 6.0,
+        "player_id": "https://research.mlb.com/players/542436",
+        "rating": 60,
+        "player_name": "Cristhian Adames",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/542436/headshot/67/current",
+        "ratings": 542436
+      },
+      "DH": {
+        "batting_order": 7.0,
+        "player_id": "https://research.mlb.com/players/593772",
+        "rating": 65,
+        "player_name": "Yeison Ascensio",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/593772/headshot/67/current",
+        "ratings": 593772
+      },
+      "CF": {
+        "batting_order": 8.0,
+        "player_id": "https://research.mlb.com/players/520976",
+        "rating": 64,
+        "player_name": "Engel Beltre",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/520976/headshot/67/current",
+        "ratings": 520976
+      },
+      "C": {
+        "batting_order": 9.0,
+        "player_id": "https://research.mlb.com/players/663503",
+        "rating": 60,
+        "player_name": "Elih Marrero",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/663503/headshot/67/current",
+        "ratings": 663503
+      },
+      "SP": {
+        "batting_order": null,
+        "player_id": "https://research.mlb.com/players/641754",
+        "rating": 70,
+        "player_name": "Jeff Kinley",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/641754/headshot/67/current",
+        "ratings": 641754
+      }
+    }
+  }
+}
