@@ -1,175 +1,175 @@
 {
   "home": {
-    "team_name": "Tigres del Licey",
-    "image": "https://www.mlbstatic.com/team-logos/672.svg",
-    "rating": 72,
+    "team_name": "Aguilas Cibae\u00f1as",
+    "image": "https://www.mlbstatic.com/team-logos/667.svg",
+    "rating": 66,
     "roster": {
-      "LF": {
-        "batting_order": 1.0,
-        "player_id": "https://research.mlb.com/players/682927",
-        "rating": 68,
-        "player_name": "Ronny Simon",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/682927/headshot/67/current",
-        "ratings": 682927
-      },
-      "2B": {
-        "batting_order": 2.0,
-        "player_id": "https://research.mlb.com/players/660644",
-        "rating": 69,
-        "player_name": "Vidal Bruj\u00e1n",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/660644/headshot/67/current",
-        "ratings": 660644
-      },
-      "RF": {
-        "batting_order": 3.0,
-        "player_id": "https://research.mlb.com/players/622569",
-        "rating": 75,
-        "player_name": "Pablo Reyes",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622569/headshot/67/current",
-        "ratings": 622569
+      "3B": {
+        "player_name": "Jonathan Villar",
+        "player_id": 542340,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/542340/headshot/67/current",
+        "batting_order": 1,
+        "rating": 57,
+        "birthcountry": "Dominican Republic"
       },
       "1B": {
-        "batting_order": 4.0,
-        "player_id": "https://research.mlb.com/players/687859",
-        "rating": 70,
-        "player_name": "Troy Johnston",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/687859/headshot/67/current",
-        "ratings": 687859
-      },
-      "3B": {
-        "batting_order": 5.0,
-        "player_id": "https://research.mlb.com/players/622168",
-        "rating": 70,
-        "player_name": "Yairo Mu\u00f1oz",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622168/headshot/67/current",
-        "ratings": 622168
-      },
-      "SS": {
-        "batting_order": 6.0,
-        "player_id": "https://research.mlb.com/players/542436",
-        "rating": 60,
-        "player_name": "Cristhian Adames",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/542436/headshot/67/current",
-        "ratings": 542436
-      },
-      "DH": {
-        "batting_order": 7.0,
-        "player_id": "https://research.mlb.com/players/593772",
-        "rating": 65,
-        "player_name": "Yeison Ascensio",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/593772/headshot/67/current",
-        "ratings": 593772
+        "player_name": "Aderlin Rodriguez",
+        "player_id": 573669,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/573669/headshot/67/current",
+        "batting_order": 7,
+        "rating": 58,
+        "birthcountry": "Dominican Republic"
       },
       "CF": {
-        "batting_order": 8.0,
-        "player_id": "https://research.mlb.com/players/520976",
-        "rating": 64,
-        "player_name": "Engel Beltre",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/520976/headshot/67/current",
-        "ratings": 520976
+        "player_name": "Erick Mejia",
+        "player_id": 625510,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/625510/headshot/67/current",
+        "batting_order": 2,
+        "rating": 69,
+        "birthcountry": "Dominican Republic"
       },
       "C": {
-        "batting_order": 9.0,
-        "player_id": "https://research.mlb.com/players/663503",
-        "rating": 60,
-        "player_name": "Elih Marrero",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/663503/headshot/67/current",
-        "ratings": 663503
+        "player_name": "J.C. Escarra",
+        "player_id": 641555,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/641555/headshot/67/current",
+        "batting_order": 3,
+        "rating": 62,
+        "birthcountry": "USA"
+      },
+      "RF": {
+        "player_name": "Jerar Encarnacion",
+        "player_id": 666464,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/666464/headshot/67/current",
+        "batting_order": 4,
+        "rating": 70,
+        "birthcountry": "Dominican Republic"
+      },
+      "LF": {
+        "player_name": "Alexander Canario",
+        "player_id": 672744,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/672744/headshot/67/current",
+        "batting_order": 8,
+        "rating": 66,
+        "birthcountry": "Dominican Republic"
+      },
+      "SS": {
+        "player_name": "Jose Caballero",
+        "player_id": 676609,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/676609/headshot/67/current",
+        "batting_order": 9,
+        "rating": 74,
+        "birthcountry": "Panama"
+      },
+      "DH": {
+        "player_name": "Eddys Leonard",
+        "player_id": 678760,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/678760/headshot/67/current",
+        "batting_order": 6,
+        "rating": 61,
+        "birthcountry": "Dominican Republic"
+      },
+      "2B": {
+        "player_name": "Cesar Prieto",
+        "player_id": 693409,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/693409/headshot/67/current",
+        "batting_order": 5,
+        "rating": 73,
+        "birthcountry": "Cuba"
       },
       "SP": {
-        "batting_order": null,
-        "player_id": "https://research.mlb.com/players/641754",
+        "player_name": "Braulio Torres-Perez",
+        "player_id": 679001,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/679001/headshot/67/current",
+        "batting_order": 0,
         "rating": 70,
-        "player_name": "Jeff Kinley",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/641754/headshot/67/current",
-        "ratings": 641754
+        "birthcountry": "USA"
       }
     }
   },
   "away": {
-    "team_name": "Aguilas Cibae\u00f1as",
-    "image": "https://www.mlbstatic.com/team-logos/667.svg",
-    "rating": 70,
+    "team_name": "Toros Del Este ",
+    "image": "https://www.mlbstatic.com/team-logos/668.svg",
+    "rating": 63,
     "roster": {
       "LF": {
-        "batting_order": 1.0,
-        "player_id": "https://research.mlb.com/players/682927",
-        "rating": 68,
-        "player_name": "Ronny Simon",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/682927/headshot/67/current",
-        "ratings": 682927
-      },
-      "2B": {
-        "batting_order": 2.0,
-        "player_id": "https://research.mlb.com/players/660644",
-        "rating": 69,
-        "player_name": "Vidal Bruj\u00e1n",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/660644/headshot/67/current",
-        "ratings": 660644
-      },
-      "RF": {
-        "batting_order": 3.0,
-        "player_id": "https://research.mlb.com/players/622569",
-        "rating": 75,
-        "player_name": "Pablo Reyes",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622569/headshot/67/current",
-        "ratings": 622569
-      },
-      "1B": {
-        "batting_order": 4.0,
-        "player_id": "https://research.mlb.com/players/687859",
-        "rating": 70,
-        "player_name": "Troy Johnston",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/687859/headshot/67/current",
-        "ratings": 687859
-      },
-      "3B": {
-        "batting_order": 5.0,
-        "player_id": "https://research.mlb.com/players/622168",
-        "rating": 70,
-        "player_name": "Yairo Mu\u00f1oz",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622168/headshot/67/current",
-        "ratings": 622168
-      },
-      "SS": {
-        "batting_order": 6.0,
-        "player_id": "https://research.mlb.com/players/542436",
-        "rating": 60,
-        "player_name": "Cristhian Adames",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/542436/headshot/67/current",
-        "ratings": 542436
-      },
-      "DH": {
-        "batting_order": 7.0,
-        "player_id": "https://research.mlb.com/players/593772",
-        "rating": 65,
-        "player_name": "Yeison Ascensio",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/593772/headshot/67/current",
-        "ratings": 593772
-      },
-      "CF": {
-        "batting_order": 8.0,
-        "player_id": "https://research.mlb.com/players/520976",
-        "rating": 64,
-        "player_name": "Engel Beltre",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/520976/headshot/67/current",
-        "ratings": 520976
+        "player_name": "Alfredo Marte",
+        "player_id": 501245,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/501245/headshot/67/current",
+        "batting_order": 7,
+        "rating": 56,
+        "birthcountry": "Dominican Republic"
       },
       "C": {
-        "batting_order": 9.0,
-        "player_id": "https://research.mlb.com/players/663503",
+        "player_name": "Francisco Pena",
+        "player_id": 506747,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/506747/headshot/67/current",
+        "batting_order": 9,
+        "rating": 57,
+        "birthcountry": "Dominican Republic"
+      },
+      "SS": {
+        "player_name": "Cristhian Adames",
+        "player_id": 542436,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/542436/headshot/67/current",
+        "batting_order": 8,
         "rating": 60,
-        "player_name": "Elih Marrero",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/663503/headshot/67/current",
-        "ratings": 663503
+        "birthcountry": "Dominican Republic"
+      },
+      "3B": {
+        "player_name": "Yairo Munoz",
+        "player_id": 622168,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622168/headshot/67/current",
+        "batting_order": 2,
+        "rating": 62,
+        "birthcountry": "Dominican Republic"
+      },
+      "RF": {
+        "player_name": "Pablo Reyes",
+        "player_id": 622569,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622569/headshot/67/current",
+        "batting_order": 4,
+        "rating": 69,
+        "birthcountry": "Dominican Republic"
+      },
+      "2B": {
+        "player_name": "Ivan Castillo",
+        "player_id": 622668,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622668/headshot/67/current",
+        "batting_order": 1,
+        "rating": 59,
+        "birthcountry": "Dominican Republic"
+      },
+      "CF": {
+        "player_name": "Luis Liberato",
+        "player_id": 642451,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/642451/headshot/67/current",
+        "batting_order": 5,
+        "rating": 68,
+        "birthcountry": "Dominican Republic"
+      },
+      "1B": {
+        "player_name": "T.J. Rumfield",
+        "player_id": 681198,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/681198/headshot/67/current",
+        "batting_order": 6,
+        "rating": 65,
+        "birthcountry": "USA"
+      },
+      "DH": {
+        "player_name": "Troy Johnston",
+        "player_id": 687859,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/687859/headshot/67/current",
+        "batting_order": 3,
+        "rating": 72,
+        "birthcountry": "USA"
       },
       "SP": {
-        "batting_order": null,
-        "player_id": "https://research.mlb.com/players/641754",
+        "player_name": "Jaime Barria",
+        "player_id": 642545,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/642545/headshot/67/current",
+        "batting_order": 0,
         "rating": 70,
-        "player_name": "Jeff Kinley",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/641754/headshot/67/current",
-        "ratings": 641754
+        "birthcountry": "Panama"
       }
     }
   }
