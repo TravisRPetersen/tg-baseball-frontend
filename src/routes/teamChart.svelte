@@ -1,6 +1,7 @@
 <script lang="ts">
-  import type { Roster, Team } from "../app";
+  import type { Team } from "../app";
   import Diamond from "./diamond.svelte";
+  import getColor from "$lib";
 
   // props
   export let team: Team;
@@ -8,11 +9,15 @@
 </script>
 
 <div>
-  <h1>{type}</h1>
+  <h1>{type.toUpperCase()}</h1>
   <div class="team-header">
     <img src={team.image} alt={team.team_name} height="90" />
     <h2>{team.team_name}</h2>
-    <h3>{team.rating} overall</h3>
+    <h3>
+      <span class="team-rating" style="color:{getColor(team.rating)}">
+        {team.rating}</span
+      > overall
+    </h3>
   </div>
   <Diamond roster={team.roster} {type} />
 </div>
