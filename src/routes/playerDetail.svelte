@@ -96,6 +96,16 @@
     transform="scale(1,-1)"
   />
 
+  <!-- Country flag -->
+  <image
+    href={`https://flagsapi.com/${player.birth_country}/flat/64.png`}
+    x={getCoordinate(position).x + radius * 0.5}
+    y={getCoordinate(position).y - radius * 0.05}
+    height="175"
+    width="125"
+    transform="scale(1,-1)"
+  />
+
   <!-- Text formatting -->
   <rect
     class="textBackground"
@@ -130,7 +140,9 @@
       fill="white"
       transform="scale(1,-1)"
     >
-      {player.player_name}
+        <a href={`/player/${player.player_id}`}>
+          {player.player_name}
+        </a>
     </text>
   </g>
 </g>

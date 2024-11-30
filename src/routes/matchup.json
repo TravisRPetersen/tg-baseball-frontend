@@ -10,7 +10,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/542340/headshot/67/current",
         "batting_order": 1,
         "rating": 57,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "1B": {
         "player_name": "Aderlin Rodriguez",
@@ -18,7 +18,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/573669/headshot/67/current",
         "batting_order": 7,
         "rating": 58,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "CF": {
         "player_name": "Erick Mejia",
@@ -26,7 +26,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/625510/headshot/67/current",
         "batting_order": 2,
         "rating": 69,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "C": {
         "player_name": "J.C. Escarra",
@@ -34,7 +34,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/641555/headshot/67/current",
         "batting_order": 3,
         "rating": 62,
-        "birthcountry": "USA"
+        "birth_country": "US"
       },
       "RF": {
         "player_name": "Jerar Encarnacion",
@@ -42,7 +42,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/666464/headshot/67/current",
         "batting_order": 4,
         "rating": 70,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "LF": {
         "player_name": "Alexander Canario",
@@ -50,7 +50,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/672744/headshot/67/current",
         "batting_order": 8,
         "rating": 66,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "SS": {
         "player_name": "Jose Caballero",
@@ -58,7 +58,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/676609/headshot/67/current",
         "batting_order": 9,
         "rating": 74,
-        "birthcountry": "Panama"
+        "birth_country": "PA"
       },
       "DH": {
         "player_name": "Eddys Leonard",
@@ -66,7 +66,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/678760/headshot/67/current",
         "batting_order": 6,
         "rating": 61,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "2B": {
         "player_name": "Cesar Prieto",
@@ -74,7 +74,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/693409/headshot/67/current",
         "batting_order": 5,
         "rating": 73,
-        "birthcountry": "Cuba"
+        "birth_country": "CU"
       },
       "SP": {
         "player_name": "Braulio Torres-Perez",
@@ -82,7 +82,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/c_fill,g_auto/w_360/v1/people/679001/headshot/milb/current",
         "batting_order": 0,
         "rating": 70,
-        "birthcountry": "USA"
+        "birth_country": "US"
       }
     }
   },
@@ -97,7 +97,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/501245/headshot/67/current",
         "batting_order": 7,
         "rating": 56,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "C": {
         "player_name": "Francisco Pena",
@@ -105,7 +105,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/506747/headshot/67/current",
         "batting_order": 9,
         "rating": 57,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "SS": {
         "player_name": "Cristhian Adames",
@@ -113,7 +113,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/542436/headshot/67/current",
         "batting_order": 8,
         "rating": 60,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "3B": {
         "player_name": "Yairo Munoz",
@@ -121,7 +121,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622168/headshot/67/current",
         "batting_order": 2,
         "rating": 62,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "RF": {
         "player_name": "Pablo Reyes",
@@ -129,7 +129,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622569/headshot/67/current",
         "batting_order": 4,
         "rating": 69,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "2B": {
         "player_name": "Ivan Castillo",
@@ -137,7 +137,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/622668/headshot/67/current",
         "batting_order": 1,
         "rating": 59,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "CF": {
         "player_name": "Luis Liberato",
@@ -145,7 +145,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/642451/headshot/67/current",
         "batting_order": 5,
         "rating": 68,
-        "birthcountry": "Dominican Republic"
+        "birth_country": "DO"
       },
       "1B": {
         "player_name": "T.J. Rumfield",
@@ -153,7 +153,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/681198/headshot/67/current",
         "batting_order": 6,
         "rating": 65,
-        "birthcountry": "USA"
+        "birth_country": "US"
       },
       "DH": {
         "player_name": "Troy Johnston",
@@ -161,7 +161,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/687859/headshot/67/current",
         "batting_order": 3,
         "rating": 72,
-        "birthcountry": "USA"
+        "birth_country": "US"
       },
       "SP": {
         "player_name": "Jaime Barria",
@@ -169,7 +169,7 @@
         "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_100/v1/people/642545/headshot/67/current",
         "batting_order": 0,
         "rating": 70,
-        "birthcountry": "Panama"
+        "birth_country": "PA"
       }
     }
   }
