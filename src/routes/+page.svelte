@@ -1,5 +1,6 @@
 <script lang="ts">
   // info for images
+  import { base } from '$app/paths';
   import type { Game } from "../app";
   import TeamChart from "./teamChart.svelte";
   import data from "./matchup.json";
@@ -34,3 +35,8 @@
   }
 
 </style>
+
+<nav>
+  <a href="{base}/">Home</a>
+  <a href="{base}/player">Player</a>
+</nav>
